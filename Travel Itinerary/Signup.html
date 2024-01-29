@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        background-color: rgb(196, 184, 185);
+    }
+.container{
+    width: 55%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+.btn1{
+    width:auto;
+    background-color: rgb(33, 33, 186);
+    color: white;
+    border:1px solid white;
+    padding: 8px;
+    font-weight: bold;
+}
+.btn2{
+    background-color:white;
+    border:1px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+.btn3{
+    background-color:orangered;
+    color: white;
+    border:1px solid white;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+ p a{
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.btn3 a{
+    text-decoration: none;
+    color: white;
+}
+</style>
+<body class="">
+    <div class="container pt-3 mt-2">
+          <h1>Join</h1> 
+          <hr>
+          <form >
+            <button class="btn1 mt-3"> <img src="Images/facebook.jpg" width="30px">  Continue with Facebook</button> <br> <br>  <br>
+            <button class="btn2"> <img src="Images/google.png" width="40px" alt="">Continue with Google</button> <br> <br> <br>
+            <label>Email Id:- </label>
+            <input type="email" name="mail">
+             <br> <br>
+             <label>User Name:- </label> 
+             <input type="text" name="name"> <br> <br>
+            <label>Password:- </label>
+            <input type="password" name="pwd"> <br> <br>
+           <button class="btn3 mb-4"><a href="index.html">Join</a></button>
+          </form>
+          <p class="pb-3">Alreay have an Account? <a href="Signin.html"> Sign In!</a> here</p>
+    </div>
+</body>
+</html>
